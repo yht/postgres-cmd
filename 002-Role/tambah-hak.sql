@@ -1,0 +1,2 @@
+CREATE ROLE `yht` LOGIN;
+CREATE USER `yht`;
