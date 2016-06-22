@@ -2,7 +2,7 @@
 # Skrip ini sebenarnya gak perlu
 
 # cek root
-if [[ $EUID ne 0 ]; then
+if [ "$EUID" -ne 0 ]; then
 	echo "Maaf, Anda tidak berhak melakukan pemasangan" 1>&2
 	exit 1
 fi
