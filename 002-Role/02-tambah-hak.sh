@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo su postgres -c 'psql < tambah-hak.sql'
+sudo su postgres -c 'psql < 02-tambah-hak.sql'
 
